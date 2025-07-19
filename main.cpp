@@ -1,21 +1,21 @@
 #include <iostream>
 
-int soma(int a, int b) {
-    return a + b;
+float formula_aerodinamica(){
+    float forca_de_arrasto;
+    float p_densidade;
+    float cx_aerodinamico;
+    float a_frontal;
+    float velocidade;
+
+    std::cout << "Preenche formula do aerodinamico para aplicar teste de túnel";
+    std::cin >> forca_de_arrasto;
+    std::cin >> p_densidade;
+    std::cin >> cx_aerodinamico;
+    std::cin >> a_frontal;
+    std::cin >> velocidade;
 }
 
 int main() {
-    int numero1, numero2;
-
-    std::cout << "Digite o primeiro número: ";
-    std::cin >> numero1;
-
-    std::cout << "Digite o segundo número: ";
-    std::cin >> numero2;
-
-    int resultado = soma(numero1, numero2);
-
-    std::cout << "A soma é: " << resultado << std::endl;
-
+    std::cout << "Começando aos trabalhos! heheh";
     return 0;
 }
